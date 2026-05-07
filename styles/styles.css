@@ -32,7 +32,7 @@ p {
 aside {
     width: 400px;
     margin: 20px;
-    border: 2px solid rgb(0, 0, 0 / .2);
+    border: 2px solid black;
     padding: 10px;
     background-color: #ccc;
     color: darkblue;
