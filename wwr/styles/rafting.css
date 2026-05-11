@@ -19,7 +19,7 @@
 
 header {
     background-color: var(--primary-color);
-    color: car(--accent2-color);
+    color: var(--accent2-color);
 }
 
 body {
@@ -57,7 +57,7 @@ h1 {
     opacity: 0.8;
     border: 2px solid rgba(0, 0, 0, .1);
     background-color: var(--secondary-color);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 h2 {
@@ -96,6 +96,10 @@ article {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.hero h1 article {
+    position: absolute;
 }
 
 .hero article img {
