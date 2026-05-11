@@ -1,10 +1,17 @@
+:root {
+    --heading-text-color: darkblue;
+    --heading-font: arial, sans-serif;
+    --aside-text-color: darkblue;
+    --nav-text-color: white;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--nav-text-color);
     display: block;
     padding: 20px;
 }
@@ -14,7 +21,8 @@ main {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--heading-text-color);
+    font-family: var(--heading-font)
 }
 
 main img {
@@ -35,7 +43,7 @@ aside {
     border: 1px solid black;
     padding: 10px;
     background-color: #ccc;
-    color: darkblue;
+    color: var(--aside-text-color);
 }
 
 aside img {
