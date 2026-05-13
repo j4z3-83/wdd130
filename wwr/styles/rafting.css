@@ -17,9 +17,32 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid rgba(0 0 0 .1);
+}
+
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+nav {
+    grid-column: 3/4;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
 }
 
 body {
@@ -44,8 +67,8 @@ nav,
 p,
 section,
 article {
-    margin: 16px;
-    padding: 8px;
+    margin: 16px 0;
+    padding: 8px 0;
 }
 
 h1 {
@@ -60,10 +83,20 @@ h1 {
     color: var(--accent2-color);
 }
 
+section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 35px 1fr;
+}
+
 h2 {
     background-color: var(--secondary-color);
     color: var(--accent1-color);
+    width: 100%;
     text-align: center;
+    grid-row: 1;
+    grid-column: 1/6;
+    place-content: center;
 }
 
 article {
@@ -77,15 +110,22 @@ article {
     box-shadow: 10px 10px 5px black;
 }
 
-.socialmedia a {
-    text-decoration: none;
+figcaption {
+    text-align: center;
 }
 
-.socialmedia img {
-    width: 60px;
-    height: auto;
-    padding: 0 10px;
-    gap: 10px;
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.navigaton li {
+    background-color: lightgray;
+    box-shadow: #000000 5px 5px 5px;
+    color: black;
+    padding: 5px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, .1);
 }
 
 .hero {
@@ -104,6 +144,7 @@ article {
 
 .hero article {
     position: absolute;
+    padding: 0 10px;
 }
 
 .hero article img {
@@ -111,4 +152,51 @@ article {
     width: 125px;
     height: auto;
     border: 2px solid rgba(0, 0, 0, .1);
+}
+
+.history img {
+    position: relative;
+    width: 200px;
+    grid-row: 2;
+    grid-column: 3/4;
+    place-self: center;
+    padding: 5px;
+}
+
+.history p {
+    padding: 15px;
+    grid-column: span 2;
+}
+
+.adventure figure {
+    display: grid;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.socials footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.socials p {
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.socials nav {
+    grid-column: 3/4;
+    justify-items: end;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width: 60px;
+    height: auto;
+    padding: 0 10px;
+    gap: 10px;
+    justify-content: end;
 }
