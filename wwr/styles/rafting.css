@@ -29,10 +29,6 @@ header {
     grid-template-columns: repeat(3, 1fr);
 }
 
-nav {
-    grid-column: 3/4;
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -114,14 +110,20 @@ figcaption {
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sitenav {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-column: 3;
 }
 
 .navigaton li {
     background-color: lightgray;
     box-shadow: #000000 5px 5px 5px;
     color: black;
+    height: 32px;
     padding: 5px;
     border-radius: 50px;
     border: 1px solid rgba(0, 0, 0, .1);
@@ -173,19 +175,9 @@ footer {
     padding: 5px;
 }
 
-.socials footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.socials p {
-    grid-column: 2/3;
-    text-align: center;
-}
-
 .socials nav {
-    grid-column: 3/4;
-    justify-items: end;
+    display: flex;
+
 }
 
 .socialmedia a {
@@ -197,5 +189,4 @@ footer {
     height: auto;
     padding: 0 10px;
     gap: 10px;
-    justify-content: end;
 }
