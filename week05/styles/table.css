@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+    font-family: Calibri;
+    font-size: .9rem;
+    border: 2px solid rgb(140, 140, 140);
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    border: 1px solid rgb(150, 150, 150);
+    text-align: center;
+    padding: 5px;
+}
+
+thead tr,
+tfoot tr {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+
+.grey {
+    background-color: #dddddd;
+}
