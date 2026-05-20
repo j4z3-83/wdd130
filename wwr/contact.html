@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="author" content="Jared Aldrdge">
+    <meta name="contact us" content="The contact us page for white water warriors page, page 
+        contains business location and a contact form">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="company logo">
+        <nav class="sitenav">
+            <ul class="navigaton">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="location">
+            <div class="address">
+                <h3>White Water Warriors</h3>
+                <p>123 Main Street</p>
+                <p>Townville, AB</p>
+                <p>+1 123 456 7890</p>
+                <p>info@whitewaterwarriors.ca</p>
+            </div>
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5158.435805547836!2d-112.61308325379537!3d49.72552810178674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1779232584733!5m2!1sen!2sca"
+                  width="400" height="400" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <form>
+
+                <div class="form-item column1">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-item column1">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-item column3">
+                    <label class="question">Message Purpose</label>
+                    <input type="radio" id="gen_inq" name="message purpose" value="General Inquiry">
+                    <label for="gen_inq">General Inquiry</label>
+                    <input type="radio" id="res" name="message purpose"
+                      value="Reservation Question">
+                    <label for="res">Reservation Question</label>
+                    <input type="radio" id="suggestion" name="message purpose"
+                      value="Website Suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                </div>
+                <div class="form-item column2">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <div class="form-item column2">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Please sign up for our newsletter</label>
+                </div>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <figure class="emp1">
+                <img src="images/mary_jane_excursion_organizer.jpg"
+                  alt="Mary Jane - Excursion Organizer">
+                <figcaption>Mary Jane - Excursion Organizer</figcaption>
+            </figure>
+            <figure class="emp2">
+                <img src="images/peter_parker_ceo.jpg" alt="Peter Parker - CEO">
+                <figcaption>Peter Parker - Owner/Operator</figcaption>
+            </figure>
+            <figure class="emp3">
+                <img src="images/gwen_stacy_customer_service.jpg"
+                  alt="Gwen Stacy - Customer Service Manager">
+                <figcaption>Gwen Stacy - Customer Service Manager</figcaption>
+            </figure>
+        </section>
+
+        <footer class="socials">
+            <p>&copy; 2026 | White Water Warriors | Jared Aldridge</p>
+            <nav class="socialmedia">
+                <a href="https://facebook.com">
+                    <img src="images/facebook_icon.png" alt="Facebook Icon">
+                </a>
+                <a href="https://linkinin.com">
+                    <img src="images/linkedin_icon.png" alt="Linkedin Icon">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram_icon.png" alt="Instagram Icon">
+                </a>
+            </nav>
+        </footer>
+    </main>
+
+</body>
+
+</html>
