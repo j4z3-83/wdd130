@@ -86,7 +86,7 @@ section {
 h2 {
     background-color: var(--secondary-color);
     color: var(--accent1-color);
-    width: 1024;
+    width: 1024px;
     text-align: center;
     grid-row: 1;
     grid-column: 1/6;
@@ -112,7 +112,7 @@ form {
     width: 400px;
     height: 400px;
     margin: 0 auto;
-    padding: 1 rem;
+    padding: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
     border-radius: .5rem;
     display: grid;
@@ -206,7 +206,10 @@ footer {
     font-size: 1.1rem;
 }
 
-.address h3 {
+.address h1 {
+    position: relative;
+    background: none;
+    border: none;
     font-size: 2.5rem;
 }
 
@@ -279,28 +282,6 @@ footer {
 .employees {
     display: grid;
     grid-template-rows: 35px 1fr;
-    grid-template-columns: repeat(7 * 100px);
-}
-
-.employees h2 {
-    grid-row: 1;
-    grid-column: span 7;
-}
-
-.emp1 {
-    grid-row-start: 2;
-    grid-column: 2/3;
-    padding-top: 5px;
-}
-
-.emp2 {
-    grid-row-start: 2;
-    grid-column: 4/5;
-    padding-top: 5px;
-}
-
-.emp3 {
-    grid-row-start: 2;
-    grid-column: 6/7;
-    padding-top: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
 }
