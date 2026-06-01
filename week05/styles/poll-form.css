@@ -35,6 +35,7 @@ fieldset {
 }
 
 legend {
+    align-self: center;
     padding: 0.5rem;
     color: darkblue;
     font-size: 1.3rem;
