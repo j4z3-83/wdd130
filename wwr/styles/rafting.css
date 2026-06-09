@@ -49,7 +49,7 @@ li {
     text-align: center;
     background-color: lightgray;
     box-shadow: #000000 5px 5px 5px;
-    color: black;
+    color: var(--accent2-color);
     border-radius: 50px;
     border: 1px solid rgba(0, 0, 0, .1);
 }
@@ -365,7 +365,22 @@ main {
 .hero {
     grid-row: 2/3;
     grid-column: 2/3;
+    position: relative;
 
+}
+
+.hero h1 {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.hero article {
+    float: right;
+    position: absolute;
+    bottom: 0%;
 }
 
 .hero-img {
@@ -381,14 +396,13 @@ main {
     object-fit: cover;
     border-radius: 15px;
     opacity: 0.7;
-    z-index: 1;
 }
 
 .about-us {
-    position: absolute;
+
     width: 1024px;
     height: 150px;
-    bottom: 20%;
+
     background-color: var(--primary-color);
     display: flex;
     align-items: center;
