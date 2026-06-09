@@ -485,7 +485,7 @@ footer {
 }
 
 .socialmedia {
-    justify-self: right;
+    justify-content: right;
     grid-row: 1;
     grid-column: 3/4;
 }
