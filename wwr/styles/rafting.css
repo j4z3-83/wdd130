@@ -11,6 +11,12 @@
     --body-font: Calibri, Arial, sans-serif;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* headder */
 header {
     background-color: var(--primary-color);
@@ -77,7 +83,7 @@ main {
     height: 529px;
     overflow: hidden;
     border-radius: 15px;
-    background-color: black;
+    background-color: var(--accent2-color);
 }
 
 .section-background img {
@@ -359,13 +365,17 @@ main {
 .hero {
     grid-row: 2/3;
     grid-column: 2/3;
-    width: 1024px;
-    height: 529px;
-    border-radius: 15px;
-    background-color: black;
+
 }
 
 .hero-img {
+    border-radius: 15px;
+    width: 1024px;
+    height: 529px;
+    background-color: var(--accent2-color);
+}
+
+.hero-img img {
     width: auto;
     height: 100%;
     object-fit: cover;
@@ -462,7 +472,11 @@ footer {
 .socialmedia {
     justify-self: right;
     grid-row: 1;
-    grid: 3/4;
+    grid-column: 3/4;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 .face {
