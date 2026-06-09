@@ -60,7 +60,7 @@ main {
     display: grid;
     justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
+    font-family: var(--body-font);
     background-image: linear-gradient(0deg, rgba(105, 193, 236, 0), rgba(105, 193, 236, 1));
 }
 
@@ -375,6 +375,7 @@ main {
     top: 0%;
     border-radius: 15px;
     z-index: 1;
+    font-family: var(--heading-font);
 }
 
 .hero article {
@@ -411,11 +412,11 @@ main {
 
 }
 
-.about-us img {
+.hero article img {
     width: 150px;
     height: auto;
     border-radius: 15px;
-
+    float: right;
 }
 
 .history {
