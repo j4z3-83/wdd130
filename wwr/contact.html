@@ -13,76 +13,86 @@
 
 <body>
     <header>
-        <img src="images/logo.png" alt="company logo">
+        <img class="logo" src="images/logo.png" alt="company logo">
         <nav class="sitenav">
             <ul class="navigaton">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li class="index"><a href="index.html">Home</a></li>
+                <li class="about"><a href="about.html">About Us</a></li>
+                <li class="trips"><a href="trips.html">Trips</a></li>
+                <li class="contact"><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1 class="company-name">White Water Warriors</h1>
-        <div class="address">
-            <p>123 Main Street</p>
-            <p>Townville, AB</p>
-            <p>+1 123 456 7890</p>
-            <p>info@whitewaterwarriors.ca</p>
-        </div>
-        <div class="map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5158.435805547836!2d-112.61308325379537!3d49.72552810178674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1779232584733!5m2!1sen!2sca"
-              width="400" height="400" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
-        <form>
-            <div class="form-item column1">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+        <div class="contact-page">
+            <h1 class="company-address">White Water Warriors</h1>
+            <div class="address">
+                <p>123 Main Street</p>
+                <p>Townville, AB</p>
+                <p>+1 123 456 7890</p>
+                <p>info@whitewaterwarriors.ca</p>
             </div>
-            <div class="form-item column2">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-            </div>
-            <div class="form-item column3">
-                <label class="question">Message Purpose</label>
-                <input type="radio" id="gen_inq" name="message purpose" value="General Inquiry">
-                <label for="gen_inq">General Inquiry</label>
-                <input type="radio" id="res" name="message purpose" value="Reservation Question">
-                <label for="res">Reservation Question</label>
-                <input type="radio" id="suggestion" name="message purpose"
-                  value="Website Suggestion">
-                <label for="suggestion">Website Suggestion</label>
-            </div>
-            <div class="form-item column4">
-                <label for="message">Message:</label>
-                <textarea name="message" id="message"></textarea>
-            </div>
-            <div class="form-item column2">
-                <input type="checkbox" id="newsletter" name="newsletter">
-                <label for="newsletter">Please sign up for our newsletter</label>
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5158.435805547836!2d-112.61308325379537!3d49.72552810178674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1779232584733!5m2!1sen!2sca"
+                  width="400" height="400" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
-            <button type="submit">Get in Touch!</button>
-        </form>
-
-        <div class="service">
-            <h2>We Are Here to Serve You</h2>
-            <img class="emp1" src="images/mary_jane_excursions.jpg"
-              alt="Mary Jane - Excursion Organizer">
-            <p class="name1">Mary Jane - Excursion Organizer</p>
-            <img class="emp2" src="images/peter_parker_ceo.jpg" alt="Peter Parker - CEO">
-            <p class="name2">Peter Parker - Owner/Operator</p>
-            <img class="emp3" src="images/gwen_stacy_cust_service.jpg"
-              alt="Gwen Stacy - Customer Service Manager">
-            <p class="name3">Gwen Stacy - Customer Service Manager</p>
+            <form class="contact-form">
+                <fieldset class="contact-field">
+                    <div class="form-item-row-1">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-item-row-2">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <label>Message Purpose</label>
+                        <div class="Radio-buttons">
+                            <input type="radio" id="gen_inq" name="message purpose"
+                              value="General Inquiry">
+                            <label for="gen_inq">General Inquiry</label>
+                        </div>
+                        <div class="Radio-buttons">
+                            <input type="radio" id="res" name="message purpose"
+                              value="Reservation Question">
+                            <label for="res">Reservation Question</label>
+                        </div>
+                        <div class="Radio-buttons">
+                            <input type="radio" id="suggestion" name="message purpose"
+                              value="Website Suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                            </divclass>
+                        </div>
+                        <div>
+                            <label class="form-item-row-4" for="message">Message:</label>
+                            <textarea name="message" id="message"></textarea>
+                        </div>
+                        <div class="form-item-row-5">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Please sign up for our newsletter</label>
+                        </div>
+                </fieldset>
+                <button class="contact-button" type="submit">Get in Touch!</button>
+            </form>
+            <div class="service">
+                <h2 class="team">We Are Here to Serve You</h2>
+                <img class="emp1" src="images/mary_jane_excursions.jpg"
+                  alt="Mary Jane - Excursion Organizer">
+                <p class="name1">Mary Jane - Excursion Organizer</p>
+                <img class="emp2" src="images/peter_parker_ceo.jpg" alt="Peter Parker - CEO">
+                <p class="name2">Peter Parker - Owner/Operator</p>
+                <img class="emp3" src="images/gwen_stacy_cust_service.jpg"
+                  alt="Gwen Stacy - Customer Service Manager">
+                <p class="name3">Gwen Stacy - Customer Service Manager</p>
+            </div>
         </div>
+
     </main>
-
     <footer class="socials">
         <p>&copy; 2026 | White Water Warriors | Jared Aldridge</p>
         <nav class="socialmedia">
