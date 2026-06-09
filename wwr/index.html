@@ -14,26 +14,68 @@
 
 <body>
     <header>
-        <img src="images/logo.png" alt="company logo">
+        <img class="logo" src="images/logo.png" alt="company logo">
         <nav class="sitenav">
             <ul class="navigaton">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li class="index"><a href="index.html">Home</a></li>
+                <li class="about"><a href="about.html">About Us</a></li>
+                <li class="trips"><a href="trips.html">Trips</a></li>
+                <li class="contact"><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="gridhome">
-            <img class="heroindex" src="images/hero_image_index.jpg"
-              alt="a group white water rafting">
-            <h1>White Water Warriors</h1>
-            <h2 class="tag">Where True Adventures Begin </h2>
 
+        <h1 class="company-name">White Water Warriors</h1>
+        <div class="container">
+            <div class="section-background">
+                <img class="heroindex" src="images/hero_image_index.jpg"
+                  alt="a group white water rafting">
+            </div>
+            <div class="slanted-overlay overlay1"></div>
+            <div class="slanted-overlay overlay2"></div>
+            <div class="slanted-overlay overlay3"></div>
+            <div class="slanted-overlay overlay4"></div>
+            <div class="slanted-overlay overlay5"></div>
+            <div class="center-text">You're adventure begins here!</div>
+            <h2 class="trip-page">
+                <a href="trips.html" class="trip-link">Click Here to See what
+                    Adventures Await You.</a>
+            </h2>
+        </div>
+        <h2 class="company-tagline">Where True Adventures Begin </h2>
+
+
+        <div class="image-grid">
+            <div class="image-window1">
+                <div class="image-track1">
+                    <img src="images/rafting_01.jpg" alt="Rowing a raft down a river">
+                    <img src="images/rafting_02.jpg" alt="Riding a raft through rapids">
+                    <img src="images/rafting_03.jpg" alt="Arial shot of a rive and rapids">
+                    <img src="images/rafting_04.jpg" alt=" Riding a raft through rapids">
+                    <!--duplicate image for a clean loop-->
+                    <img src="images/rafting_01.jpg" alt="Rowing a raft down a river">
+                </div>
+            </div>
+            <div class="image-window2">
+                <div class="image-track2">
+                    <img src="images/rafting_02.jpg" alt="Riding a raft through rapids">
+                    <img src="images/rafting_03.jpg" alt="Arial shot of a rive and rapids">
+                    <img src="images/rafting_04.jpg" alt=" Riding a raft through rapids">
+                    <img src="images/rafting_01.jpg" alt="Rowing a raft down a river">
+                    <!--duplicate image for a clean loop-->
+                    <img src="images/rafting_02.jpg" alt="Riding a raft through rapids">
+                </div>
+            </div>
+            <div class="image-txt">
+                <p class="image-about">Lorem ipsum dolor sit amet consectetur, adipisicing
+                    elit. Porro, beatae. Soluta commodi modi est ipsa consequuntur facere
+                    autem incidunt necessitatibus eum illo delectus illum pariatur,
+                    aliquid sapiente eius fugiat perferendis?</p>
+            </div>
             <div class="newsletter">
-                <H2>Sign up for our newsletter</H2>
+                <H2 class="news-head">Sign up for our newsletter</H2>
                 <form>
                     <fieldset>
                         <legend>Contact Information</legend>
@@ -50,37 +92,25 @@
                             <input type="email" id="useremail" name="useremail" required>
                         </div>
                     </fieldset>
-                    <button type="submit">Submit Poll</button>
+                    <button type="submit">Submit</button>
                 </form>
             </div>
+        </div>
 
 
-            <h2 class="link"><a href="trips.html">Click Here to See what Adventures Await You</a>
-            </h2>
-            <img class="pic1" src="images/rafting_01.jpg" alt="Rowing a raft down a river">
-            <p class="cap1">Half Day Adventure</p>
-            <img class="pic2" src="images/rafting_02.jpg" alt="Riding a raft through rapids">
-            <p class="cap2">Piscina De La Muerte</p>
-            <img class="pic3" src="images/rafting_03.jpg" alt="Arial shot of a rive and rapids">
-            <p class="cap3">Clearwater Cut</p>
-            <img class="pic4" src="images/rafting_04.jpg" alt=" Riding a raft through rapids">
-            <p class="cap4">El Diablo Piscina</p>
-            <img class="pic5" src="images/rafting_05.jpg" alt="Rowing a raft down a river">
-            <p class="cap5">Full Day Adventure</p>
-        </section>
     </main>
 
     <footer class="socials">
         <p>&copy; 2026 | White Water Warriors | Jared Aldridge</p>
         <nav class="socialmedia">
             <a href="https://facebook.com">
-                <img src="images/facebook_icon.png" alt="Facebook Icon">
+                <img class="face" src="images/facebook_icon.png" alt="Facebook Icon">
             </a>
             <a href="https://linkinin.com">
-                <img src="images/linkedin_icon.png" alt="Linkedin Icon">
+                <img class="link" src="images/linkedin_icon.png" alt="Linkedin Icon">
             </a>
             <a href="https://instagram.com">
-                <img src="images/instagram_icon.png" alt="Instagram Icon">
+                <img class="insta" src="images/instagram_icon.png" alt="Instagram Icon">
             </a>
         </nav>
     </footer>
