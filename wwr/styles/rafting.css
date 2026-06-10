@@ -174,7 +174,6 @@ main {
 }
 
 .trip-page {
-    background-color: lightgrey;
     width: 80%;
     position: absolute;
     text-align: center;
@@ -191,6 +190,10 @@ main {
 
 .trip-link {
     text-decoration: none;
+    background-color: lightgrey;
+    padding: 5px 15px;
+    border-radius: 15px;
+    box-shadow: #000000 5px 5px 5px;
 }
 
 .trip-link:link {
@@ -836,17 +839,15 @@ textarea {
     font-weight: 700;
 }
 
-.call-b {
-    justify-self: center;
-    height: 40px;
-    width: 450px;
-}
-
 .call-a {
     text-decoration: none;
     color: #000000;
     font-size: 1.5rem;
     font-weight: 700;
+    background-color: lightgrey;
+    border-radius: 15px;
+    padding: 5px 20px;
+    box-shadow: #000000 5px 5px 5px
 }
 
 .call-2 {
