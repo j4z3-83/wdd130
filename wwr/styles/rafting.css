@@ -691,7 +691,7 @@ textarea {
     background-color: var(--primary-color);
     color: var(--accent2-color);
     text-align: center;
-    border: 2px, solid, black;
+    border: 2px, solid black;
     margin-top: 15px;
     width: 100%;
 }
@@ -717,7 +717,7 @@ textarea {
     background-color: var(--primary-color);
     color: var(--accent2-color);
     text-align: center;
-    border: 2px, solid, black;
+    border: 2px, solid black;
     margin-top: 15px;
     width: 100%;
 }
@@ -750,7 +750,7 @@ textarea {
     background-color: var(--secondary-color);
     color: var(--accent1-color);
     text-align: center;
-    border: 2px, solid, black;
+    border: 2px, solid black;
     margin-top: 15px;
     width: 100%;
 }
@@ -761,7 +761,7 @@ textarea {
     background-color: var(--primary-color);
     color: var(--accent2-color);
     text-align: center;
-    border: 2px, solid, black;
+    border: 2px, solid black;
     width: 100%;
 }
 
@@ -786,7 +786,7 @@ textarea {
     background-color: var(--primary-color);
     color: var(--accent2-color);
     text-align: center;
-    border: 2px, solid, black;
+    border: 2px, solid black;
     width: 100%;
 }
 
@@ -811,7 +811,7 @@ textarea {
     background-color: var(--primary-color);
     color: var(--accent2-color);
     text-align: center;
-    border: 2px, solid, black;
+    border: 2px, solid black;
     width: 100%;
 }
 
