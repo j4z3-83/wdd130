@@ -659,7 +659,190 @@ textarea {
 /*end of contacts page*/
 
 /* trips page*/
+.trips-page{
+    display: grid;
+    justify-items: center;
+}
 
+.adventure-start{
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    text-align: center;
+    width: 100%;
+}
+
+.trip-packs-row1{
+    display: grid;
+    grid-template-columns: 200px 400px 400px 200px;
+    justify-items: center;
+    align-items: center;
+}
+
+.halfday-head{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-align: center;
+    border: 2px, solid, black;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.halfday-img{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    border-radius: 15px;
+    width: 400px;
+    height: auto;
+}
+
+.halfday-par{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.fullday-head{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-align: center;
+    border: 2px, solid, black;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.fullday-img{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    border-radius: 15px;
+       width: 400px;
+    height: auto;
+}
+
+.fullday-par{
+    grid-row: 3/4;
+    grid-column: 3/4;
+    margin-left: 15px;
+    margin-right: 15px;   
+}
+
+.trip-packs-row2{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-items: center;
+    align-items: center;
+}
+
+.multi-day{
+    grid-row: 1/2;
+    grid-column: span 3;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    text-align: center;
+    border: 2px, solid, black;
+    margin-top: 15px;
+    width: 100%;
+} 
+
+.clearwater-head{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-align: center;
+    border: 2px, solid, black;
+    width: 100%;
+}
+
+.clearwater-img{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    border-radius: 15px;
+    width: 400px;
+    height: auto;
+}
+
+.clearwater-par{
+    grid-row: 4/5;
+    grid-column: 1/2;
+    margin-left: 15px;
+    margin-right: 15px;   
+}
+
+.eldiablo-head{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-align: center;
+    border: 2px, solid, black;
+    width: 100%;
+}
+
+.eldiablo-img{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    border-radius: 15px;
+    width: 400px;
+    height: auto;
+}
+
+.eldiablo-par{
+    grid-row: 4/5;
+    grid-column: 2/3;
+    margin-left: 15px;
+    margin-right: 15px;    
+}
+
+.piscina-head{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-align: center;
+    border: 2px, solid, black;
+    width: 100%;
+}
+
+.piscina-img{
+    grid-row: 3/4;
+    grid-column: 3/4;
+    border-radius: 15px;
+    width: 400px;
+    height: auto;
+}
+
+.piscina-par{
+    grid-row: 4/5;
+    grid-column: 3/4;
+    margin-left: 15px;
+    margin-right: 15px;   
+}
+.call-1{
+    margin-top: 50px;
+        font-size: 1.5rem;
+    font-weight: 700;
+}
+.call-b{
+    justify-self: center;
+    height: 40px;
+    width: 450px;
+}
+.call-a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.call-2{
+    margin-bottom: 50px;
+        font-size: 1.5rem;
+    font-weight: 700;
+}
 /*end of trips page*/
 
 /* footer */
