@@ -657,39 +657,8 @@ textarea {
 }
 
 /*end of contacts page*/
+
 /* trips page*/
-
-.trip-page {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-}
-
-.adventure-starts {
-    background-color: var(--secondary-color);
-    color: var(--accent1-color);
-    width: 100%;
-    grid-row: 1/2;
-}
-
-.halfday img {
-    grid-row: 2/3;
-    grid-row: span 2;
-    grid-column: 1/2;
-}
-
-.halfday h2 {
-    grid-row: 2/3;
-    grid-column: 2/3;
-    grid-column: span 2;
-}
-
-.halfday p {
-    grid-row: 3/4;
-    grid-column: 2/3;
-    grid-column: span 2;
-}
 
 /*end of trips page*/
 
